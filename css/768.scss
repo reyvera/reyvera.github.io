@@ -1,0 +1,14 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@media (min-width: 768px) {
+  #portfolio{
+    .row.portfolio{
+      text-align: center;
+      .portfolio-item{
+        display: inline-block;
+      }
+    }
+  }
+}

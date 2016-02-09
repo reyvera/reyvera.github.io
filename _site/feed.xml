@@ -5,8 +5,8 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>https://reyvera.github.io/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 08 Feb 2016 20:36:38 -0800</pubDate>
-    <lastBuildDate>Mon, 08 Feb 2016 20:36:38 -0800</lastBuildDate>
+    <pubDate>Mon, 08 Feb 2016 21:13:28 -0800</pubDate>
+    <lastBuildDate>Mon, 08 Feb 2016 21:13:28 -0800</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -40,50 +40,14 @@
       </item>
     
       <item>
-        <title>Project 2</title>
-        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
-        <pubDate>Thu, 17 Jul 2014 00:00:00 -0700</pubDate>
-        <link>https://reyvera.github.io/portfolio/2014/07/17/project-2/</link>
-        <guid isPermaLink="true">https://reyvera.github.io/portfolio/2014/07/17/project-2/</guid>
-        
-        
-        <category>Portfolio</category>
-        
-      </item>
-    
-      <item>
-        <title>Project 4</title>
+        <title>Template</title>
         <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
         <pubDate>Tue, 15 Jul 2014 00:00:00 -0700</pubDate>
-        <link>https://reyvera.github.io/web%20development/2014/07/15/project-4/</link>
-        <guid isPermaLink="true">https://reyvera.github.io/web%20development/2014/07/15/project-4/</guid>
+        <link>https://reyvera.github.io/template/2014/07/15/template/</link>
+        <guid isPermaLink="true">https://reyvera.github.io/template/2014/07/15/template/</guid>
         
         
-        <category>Web Development</category>
-        
-      </item>
-    
-      <item>
-        <title>Project 6</title>
-        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
-        <pubDate>Tue, 15 Jul 2014 00:00:00 -0700</pubDate>
-        <link>https://reyvera.github.io/web%20development/2014/07/15/project-6/</link>
-        <guid isPermaLink="true">https://reyvera.github.io/web%20development/2014/07/15/project-6/</guid>
-        
-        
-        <category>Web Development</category>
-        
-      </item>
-    
-      <item>
-        <title>Project 5</title>
-        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
-        <pubDate>Mon, 14 Jul 2014 00:00:00 -0700</pubDate>
-        <link>https://reyvera.github.io/web%20development/2014/07/14/project-5/</link>
-        <guid isPermaLink="true">https://reyvera.github.io/web%20development/2014/07/14/project-5/</guid>
-        
-        
-        <category>Web Development</category>
+        <category>Template</category>
         
       </item>
     

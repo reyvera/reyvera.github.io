@@ -1,0 +1,5 @@
+@media (min-width: 768px) {
+  #portfolio .row.portfolio {
+    text-align: center; }
+    #portfolio .row.portfolio .portfolio-item {
+      display: inline-block; } }

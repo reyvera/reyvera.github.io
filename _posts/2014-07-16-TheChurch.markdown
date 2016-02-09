@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 3
+modal-id: 2
 date: 2016-02-08
 img: screenshot_TheChurch.jpg
 alt: image-alt
