@@ -3,11 +3,13 @@
 ---
 
 @media (min-width: 768px) {
-  #portfolio{
+  #portfolio, #blog_grid{
     .row.portfolio{
       text-align: center;
+      
       .portfolio-item{
         display: inline-block;
+        margin: 0 0 30px;
       }
     }
   }

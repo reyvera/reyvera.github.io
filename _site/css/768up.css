@@ -1,5 +1,6 @@
 @media (min-width: 768px) {
-  #portfolio .row.portfolio {
+  #portfolio .row.portfolio, #blog_grid .row.portfolio {
     text-align: center; }
-    #portfolio .row.portfolio .portfolio-item {
-      display: inline-block; } }
+    #portfolio .row.portfolio .portfolio-item, #blog_grid .row.portfolio .portfolio-item {
+      display: inline-block;
+      margin: 0 0 30px; } }
