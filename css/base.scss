@@ -17,6 +17,16 @@ footer{
         h3{
           margin-bottom: 30px;
         }
+        &#footer_location{
+          a{
+            color: #ffffff;
+
+            &:hover{
+              color: #18bc9c;
+              text-decoration: none;
+            }
+          }
+        }
         &#footer_social{
           .btn-social {
               display: inline-block;
