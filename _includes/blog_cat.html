@@ -1,0 +1,36 @@
+
+    <!-- Portfolio Grid Section -->
+    <section id="blog_cat">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Categories</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row portfolio">
+              {% for category in site.categories %}
+                {% unless category contains 'Portfolio' or category contains 'Template' %}
+                  {% for catposts in category %}
+                    {% if forloop.first %}
+                      {% continue %}
+                    {% endif %}
+                    {% for catpost in catposts limit:1 %}
+                      <div class="portfolio-item">
+                        <a href="/{{ category | first | slugize }}/" class="portfolio-link" data-toggle="modal">
+                          <div class="caption">
+                            <div class="caption-content">
+                              <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                          </div>
+                          <img src="../img/portfolio/{{ catpost.img }}" class="img-responsive" alt="{{ catpost.alt }}">
+                          <h4 class="catHeader">{{category | first}}</h4>
+                        </a>
+                      </div>
+                    {% endfor %}
+                  {% endfor %}
+                {% endunless %}
+              {% endfor %}
+            </div>
+        </div>
+    </section>

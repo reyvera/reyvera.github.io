@@ -68,7 +68,7 @@ footer{
 }
 
 /* Blog/Portfolio */
-#portfolio, #blog_grid{
+#portfolio, #blog_grid, #blog_cat{
   .portfolio-item{
     right: 0;
     margin: 0 0 15px;
@@ -111,6 +111,10 @@ footer{
             margin: 0;
           }
         }
+      }
+
+      .catHeader{
+        text-align: center;
       }
     }
   }
