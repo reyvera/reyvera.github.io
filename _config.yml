@@ -1,6 +1,7 @@
 # Site settings
 title: VerUX
 email: veruxdev@gmail.com
+phone: 559.300.2834
 url: https://reyvera.github.io
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 skills: "Software Engineer - UX Designer - Musician"
@@ -34,7 +35,7 @@ footer:
   copyright: VerUX
   location: Location
   social: Around the Web
-  credits: Credits
+  contact: Contact
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -51,12 +52,13 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 6900 Valleyview Dr
-  - line: Apt 229
-  - line: Bakersfield, CA 93306
+  - line: Bakersfield, CA
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+# credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+contact:
+  - line: 559.300.2834
+  - line: veruxdev@gmail.com
 
 # Build settings
 markdown: kramdown
