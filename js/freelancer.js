@@ -35,3 +35,8 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+/* Custom JS Functions */
+$("a.category-link").click(function(){
+  alert('category-link has been clicked!');
+});

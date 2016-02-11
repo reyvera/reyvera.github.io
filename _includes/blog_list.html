@@ -1,36 +1,34 @@
 
     <!-- Portfolio Grid Section -->
-    <section id="blog_cat" class="displayBlog">
+    <section id="blog_list" class="hideBlog">
+      {% for category in site.categories %}
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Categories</h2>
+                    <h2>{{category | first}}</h2>
                     <hr class="star-primary">
                 </div>
             </div>
             <div class="row portfolio">
-              {% for category in site.categories %}
-                {% unless category contains 'Portfolio' or category contains 'Template' %}
                   {% for catposts in category %}
                     {% if forloop.first %}
                       {% continue %}
                     {% endif %}
-                    {% for catpost in catposts limit:1 %}
+                    {% for post in catposts %}
                       <div class="portfolio-item">
-                        <a href="/{{ category | first | slugize }}/" class="category-link" data-toggle="modal">
+                        <a href="{{ post.url }}" class="portfolio-link" data-toggle="modal">
                           <div class="caption">
                             <div class="caption-content">
                               <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                           </div>
-                          <img src="../img/{{category | first}}/{{ catpost.img }}" class="img-responsive" alt="{{ catpost.alt }}">
-                          <h4 class="catHeader">{{category | first}}</h4>
+                          <img src="../img/{{category | first}}/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                          <h4 class="postHeader">{{post.title}}</h4>
                         </a>
                       </div>
                     {% endfor %}
                   {% endfor %}
-                {% endunless %}
-              {% endfor %}
             </div>
         </div>
+      {% endfor %}
     </section>

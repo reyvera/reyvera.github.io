@@ -2,62 +2,6 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
-/* Footer */
-footer{
-  color: #ffffff;
-
-  .footer-above{
-    padding-top: 50px;
-    background-color: #{{ site.color.secondary }};
-
-    .container{
-      .footer-col{
-        margin-bottom: 50px;
-
-        h3{
-          margin-bottom: 30px;
-        }
-        &#footer_location{
-          a{
-            color: #ffffff;
-
-            &:hover{
-              color: #18bc9c;
-              text-decoration: none;
-            }
-          }
-        }
-        &#footer_social{
-          .btn-social {
-              display: inline-block;
-              width: 50px;
-              height: 50px;
-              border: 2px solid #fff;
-              border-radius: 100%;
-              text-align: center;
-              font-size: 20px;
-              line-height: 45px;
-          }
-        }
-        &#footer_contact{
-          a{
-            color: #ffffff;
-
-            &:hover{
-              color: #18bc9c;
-              text-decoration: none;
-            }
-          }
-        }
-      }
-    }
-  }
-  .footer-below{
-    padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }};
-  }
-}
-
 /* Homepage: ABOUT */
 #about{
   .container{
@@ -68,12 +12,18 @@ footer{
 }
 
 /* Blog/Portfolio */
-#portfolio, #blog_grid, #blog_cat{
+#portfolio, #blog_grid, #blog_cat, #blog_list{
+  &.displayBlog{
+    display: block;
+  }
+  &.hideBlog{
+    display: none;
+  }
   .portfolio-item{
     right: 0;
     margin: 0 0 15px;
 
-    .portfolio-link{
+    .portfolio-link, .category-link{
       display: block;
       position: relative;
       margin: 0 auto;
@@ -133,4 +83,60 @@ footer{
     section.first {
         padding-top: 75px;
     }
+}
+
+/* Footer */
+footer{
+  color: #ffffff;
+
+  .footer-above{
+    padding-top: 50px;
+    background-color: #{{ site.color.secondary }};
+
+    .container{
+      .footer-col{
+        margin-bottom: 50px;
+
+        h3{
+          margin-bottom: 30px;
+        }
+        &#footer_location{
+          a{
+            color: #ffffff;
+
+            &:hover{
+              color: #18bc9c;
+              text-decoration: none;
+            }
+          }
+        }
+        &#footer_social{
+          .btn-social {
+              display: inline-block;
+              width: 50px;
+              height: 50px;
+              border: 2px solid #fff;
+              border-radius: 100%;
+              text-align: center;
+              font-size: 20px;
+              line-height: 45px;
+          }
+        }
+        &#footer_contact{
+          a{
+            color: #ffffff;
+
+            &:hover{
+              color: #18bc9c;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer-below{
+    padding: 25px 0;
+    background-color: #{{ site.color.secondary-dark }};
+  }
 }

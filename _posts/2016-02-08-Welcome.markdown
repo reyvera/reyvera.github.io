@@ -2,7 +2,7 @@
 layout: layout-blog
 modal-id: 3
 date: 2016-02-09
-img: submarine.png
+img: Welcome.jpg
 alt: image-alt
 project-date:
 client:
