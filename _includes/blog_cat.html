@@ -10,14 +10,14 @@
             </div>
             <div class="row portfolio">
               {% for category in site.categories %}
-                {% unless category contains 'Portfolio' or category contains 'Template' %}
+                {% unless category contains 'portfolio' or category contains 'template' %}
                   {% for catposts in category %}
                     {% if forloop.first %}
                       {% continue %}
                     {% endif %}
                     {% for catpost in catposts limit:1 %}
                       <div class="portfolio-item">
-                        <a href="/{{ category | first | slugize }}/" class="category-link" data-toggle="modal">
+                        <a href="{{relative}}{{category | first}}" class="category-link" data-toggle="modal">
                           <div class="caption">
                             <div class="caption-content">
                               <i class="fa fa-search-plus fa-3x"></i>

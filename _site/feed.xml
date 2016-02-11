@@ -5,9 +5,21 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>https://reyvera.github.io/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 11 Feb 2016 09:12:39 -0800</pubDate>
-    <lastBuildDate>Thu, 11 Feb 2016 09:12:39 -0800</lastBuildDate>
+    <pubDate>Thu, 11 Feb 2016 12:18:10 -0800</pubDate>
+    <lastBuildDate>Thu, 11 Feb 2016 12:18:10 -0800</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Welcome Number Two</title>
+        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
+        <pubDate>Thu, 11 Feb 2016 00:00:00 -0800</pubDate>
+        <link>https://reyvera.github.io/welcome/2016/02/11/welcome-number-two/</link>
+        <guid isPermaLink="true">https://reyvera.github.io/welcome/2016/02/11/welcome-number-two/</guid>
+        
+        
+        <category>welcome</category>
+        
+      </item>
     
       <item>
         <title>Welcome</title>
@@ -31,7 +43,7 @@
         <category>Website</category>
         
         
-        <category>Portfolio</category>
+        <category>portfolio</category>
         
       </item>
     
@@ -47,7 +59,19 @@
         <category>Development</category>
         
         
-        <category>Portfolio</category>
+        <category>portfolio</category>
+        
+      </item>
+    
+      <item>
+        <title>Random Title</title>
+        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
+        <pubDate>Sun, 13 Dec 2015 00:00:00 -0800</pubDate>
+        <link>https://reyvera.github.io/random/2015/12/13/random-title/</link>
+        <guid isPermaLink="true">https://reyvera.github.io/random/2015/12/13/random-title/</guid>
+        
+        
+        <category>random</category>
         
       </item>
     
@@ -59,7 +83,7 @@
         <guid isPermaLink="true">https://reyvera.github.io/template/2014/07/15/template/</guid>
         
         
-        <category>Template</category>
+        <category>template</category>
         
       </item>
     

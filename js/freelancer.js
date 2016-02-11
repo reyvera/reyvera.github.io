@@ -37,6 +37,6 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 /* Custom JS Functions */
-$("a.category-link").click(function(){
-  alert('category-link has been clicked!');
-});
+// $("a.category-link").click(function(){
+//   alert('category-link has been clicked!');
+// });

@@ -1,14 +1,14 @@
 ---
-layout: default
-modal-id: 1
-date: 2016-02-08
-img: screenshot_TheFalls.jpg
+layout: layout-blog
+modal-id: 3
+date: 2016-02-11
+img: welcomeNumberTwo.png
 alt: image-alt
-project-date: October 2015
-client: The Falls
-link: http://www.thefallseventcenter.com/
-category: portfolio
-tags: Web Development
+project-date:
+client:
+link:
+category: welcome
+tags:
 description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
 
 ---

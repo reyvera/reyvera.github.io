@@ -10,7 +10,7 @@
             </div>
             <div class="row portfolio">
                 {% for post in site.posts %}
-                  {% if post.categories contains 'Portfolio' %}
+                  {% if post.categories contains 'portfolio' %}
                     <div class="portfolio-item">
                         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                             <div class="caption">

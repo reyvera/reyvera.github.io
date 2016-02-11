@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body id="page-top" class="blog">
+    {% include nav.html %}
+    {% include blog_header.html %}
+
+    <!-- Welcome Posts Section -->
+    <section id="blog_list">
+      {% for category in site.categories %}
+        {% if category contains 'welcome' %}
+          <div id="container_{{category | first}}" class="container">
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                  <h2>{{category | first}}</h2>
+                  <hr class="star-primary">
+                </div>
+              </div>
+              <div class="row portfolio">
+                {% for catposts in category %}
+                  {% if forloop.first %}
+                    {% continue %}
+                  {% endif %}
+                  {% for post in catposts %}
+                    <div class="portfolio-item">
+                      <!-- <a href="{{ post.url }}" class="post-link" data-toggle="modal"> -->
+                      <a class="post-link" data-toggle="modal">
+                        <div class="caption">
+                          <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                          </div>
+                        </div>
+                        <img src="../img/{{category | first}}/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                        <h4 class="postHeader">{{post.title}}</h4>
+                      </a>
+                    </div>
+                  {% endfor %}
+                {% endfor %}
+              </div>
+            </div>
+        {% endif %}
+      {% endfor %}
+    </section>
+
+    {% include contact_disqus.html %}
+
+    {% include footer.html %}
+    {% include modals.html %}
+    {% include js.html %}
+    </body>
+</html>
