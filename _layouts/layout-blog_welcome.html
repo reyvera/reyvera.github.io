@@ -23,8 +23,8 @@
                   {% endif %}
                   {% for post in catposts %}
                     <div class="portfolio-item">
-                      <!-- <a href="{{ post.url }}" class="post-link" data-toggle="modal"> -->
-                      <a class="post-link" data-toggle="modal">
+                      <a href="{{ post.url }}" class="post-link" data-toggle="modal">
+                      <!-- <a class="post-link" data-toggle="modal"> -->
                         <div class="caption">
                           <div class="caption-content">
                             <i class="fa fa-search-plus fa-3x"></i>
@@ -41,8 +41,6 @@
         {% endif %}
       {% endfor %}
     </section>
-
-    {% include contact_disqus.html %}
 
     {% include footer.html %}
     {% include modals.html %}

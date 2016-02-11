@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 modal-id: 6
 date: 2015-12-13
 img: cake.png
