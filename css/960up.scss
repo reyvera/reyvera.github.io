@@ -2,11 +2,11 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
-@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
   /* Post layout */
   #blog_list{
     .post_wrapper{
-      width: 738px;
+      width: 930px;
       margin: 0 auto;
     }
   }

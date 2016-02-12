@@ -1,7 +1,7 @@
-@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media only screen and (min-width: 1200px) {
   /* Post layout */
   #blog_list .post_wrapper {
-    width: 738px;
+    width: 1170px;
     margin: 0 auto; }
 
   #portfolio .row.portfolio, #blog_grid .row.portfolio {
