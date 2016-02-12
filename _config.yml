@@ -49,6 +49,8 @@ social:
     # url: http://bitbucket.org/jekyll
   - title: github
     url: http://github.com/reyvera
+  - title: linkedin-square
+    url: https://www.linkedin.com/in/reymundovera
 
 # Postal address (add as many lines as necessary)
 address:
