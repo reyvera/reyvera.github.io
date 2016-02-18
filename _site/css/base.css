@@ -1,3 +1,8 @@
+/* Homepage: HEADER */
+header .profile-img {
+  max-width: 400px;
+  width: 27em; }
+
 /* Homepage: ABOUT */
 #about .container p {
   text-align: justify; }

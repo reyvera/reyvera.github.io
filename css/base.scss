@@ -1,6 +1,13 @@
 ---
 # Front matter comment to ensure Jekyll properly reads file.
 ---
+/* Homepage: HEADER */
+header{
+  .profile-img{
+    max-width: 400px;
+    width: 27em;
+  }
+}
 
 /* Homepage: ABOUT */
 #about{
