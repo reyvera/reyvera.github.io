@@ -3,6 +3,13 @@
 ---
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
+  /* Homepage: HEADER */
+  header{
+    .profile-img{
+      width: 27em;
+    }
+  }
+
   /* Post layout */
   #blog_list{
     .post_wrapper{

@@ -10,9 +10,10 @@
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="{{ "/style.css" }}">
-    <link rel="stylesheet" href="/css/1200up.css">
-    <link rel="stylesheet" href="/css/768up.css">
     <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/768up.css">
+    <link rel="stylesheet" href="/css/960up.css">
+    <link rel="stylesheet" href="/css/1200up.css">
 
     {% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
     {% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}

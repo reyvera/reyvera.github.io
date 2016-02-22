@@ -1,7 +1,7 @@
 /* Homepage: HEADER */
 header .profile-img {
   max-width: 400px;
-  width: 27em; }
+  width: 18em; }
 
 /* Homepage: ABOUT */
 #about .container p {
@@ -10,6 +10,10 @@ header .profile-img {
 /* Blog/Portfolio */
 #portfolio .container, #blog_grid .container, #blog_cat .container, #blog_list .container {
   text-align: center; }
+  #portfolio .container .portfolio, #blog_grid .container .portfolio, #blog_cat .container .portfolio, #blog_list .container .portfolio {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto; }
   #portfolio .container .portfolio-item, #blog_grid .container .portfolio-item, #blog_cat .container .portfolio-item, #blog_list .container .portfolio-item {
     right: 0;
     margin: 0 0 15px;
