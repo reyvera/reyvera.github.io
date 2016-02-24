@@ -37,6 +37,9 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 /* Custom JS Functions */
-// $("a.category-link").click(function(){
-//   alert('category-link has been clicked!');
+// var catLink = $("a.category-link");
+// $(catLink).click(function(){
+//   var catClass = catLink.attr("class");
+//   catClass = catClass.replace("category-link ", '');
+//   alert(catClass + ' has been clicked!');
 // });

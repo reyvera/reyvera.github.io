@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body id="page-top" class="blog">
+    {% include nav.html %}
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- <img class="img-responsive" src="img/profile.png" alt=""> -->
+                    <div class="intro-text">
+                        <span class="name">{{ page.title }}</span>
+                        <hr class="star-light">
+                        <!-- <span class="skills">Journey with me to discover various<br> aspects of life!</span> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="blog_grid">
+      {% for post in site.categories.[page.category] %}
+        <div class="container {{page.category}}">
+            <h2><a href="">{{post.title}}</a></h2>
+            <p>{{post.excerpt}}</p>
+        </div>
+      {% endfor %}
+    </section>
+
+    {% include footer.html %}
+    {% include modals.html %}
+    {% include js.html %}
+    </body>
+</html>

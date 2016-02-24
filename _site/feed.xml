@@ -5,9 +5,33 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>https://reyvera.github.io/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 22 Feb 2016 15:21:45 -0800</pubDate>
-    <lastBuildDate>Mon, 22 Feb 2016 15:21:45 -0800</lastBuildDate>
+    <pubDate>Tue, 23 Feb 2016 15:32:26 -0800</pubDate>
+    <lastBuildDate>Tue, 23 Feb 2016 15:32:26 -0800</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>My First Post</title>
+        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
+        <pubDate>Tue, 23 Feb 2016 00:00:00 -0800</pubDate>
+        <link>https://reyvera.github.io/gh-pages/2016/02/23/My-First-Post/</link>
+        <guid isPermaLink="true">https://reyvera.github.io/gh-pages/2016/02/23/My-First-Post/</guid>
+        
+        
+        <category>gh-pages</category>
+        
+      </item>
+    
+      <item>
+        <title>My Second Post</title>
+        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
+        <pubDate>Mon, 22 Feb 2016 00:00:00 -0800</pubDate>
+        <link>https://reyvera.github.io/gh-pages/2016/02/22/My-Second-Post/</link>
+        <guid isPermaLink="true">https://reyvera.github.io/gh-pages/2016/02/22/My-Second-Post/</guid>
+        
+        
+        <category>gh-pages</category>
+        
+      </item>
     
       <item>
         <title>Welcome</title>
