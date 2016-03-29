@@ -8,7 +8,7 @@ project-date: April 2014
 client: TheChurch
 link: http://welcometothechurch.com/#welcome
 category: portfolio
-tags: Website
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+tags: Web
+description: The client wanted a site that could be completely self-maintained, while not compromising on it's ability to be feature rich. This led to the decision to use SquareSpace as the Content Management System. After deciding which platform to use, the default template "Alex" was used as a base with modifications to fit the clients exact needs. Specifically, there needed to be an easy way to add the clients logo image to the nav-bar, and home section; and the nav-bar needed to have a mobile variant when the screen size was small enough; and backend JavaScript was implemented to allow for a proper responsive design based on their needs.
 
 ---

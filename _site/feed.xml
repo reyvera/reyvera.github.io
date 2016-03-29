@@ -5,8 +5,8 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>https://reyvera.github.io/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 23 Feb 2016 15:32:26 -0800</pubDate>
-    <lastBuildDate>Tue, 23 Feb 2016 15:32:26 -0800</lastBuildDate>
+    <pubDate>Tue, 29 Mar 2016 08:05:06 -0700</pubDate>
+    <lastBuildDate>Tue, 29 Mar 2016 08:05:06 -0700</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -47,12 +47,12 @@
     
       <item>
         <title>Thechurch</title>
-        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
+        <description>The client wanted a site that could be completely self-maintained, while not compromising on it&#39;s ability to be feature rich. This led to the decision to use SquareSpace as the Content Management System. After deciding which platform to use, the default template &quot;Alex&quot; was used as a base with modifications to fit the clients exact needs. Specifically, there needed to be an easy way to add the clients logo image to the nav-bar, and home section; and the nav-bar needed to have a mobile variant when the screen size was small enough; and backend JavaScript was implemented to allow for a proper responsive design based on their needs.</description>
         <pubDate>Mon, 08 Feb 2016 00:00:00 -0800</pubDate>
         <link>https://reyvera.github.io/portfolio/2016/02/08/TheChurch/</link>
         <guid isPermaLink="true">https://reyvera.github.io/portfolio/2016/02/08/TheChurch/</guid>
         
-        <category>Website</category>
+        <category>Web</category>
         
         
         <category>portfolio</category>
@@ -61,14 +61,12 @@
     
       <item>
         <title>The falls</title>
-        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
+        <description>The COO/Creative Director of Storm Maker Media reached out for assistance on &lt;a target=&quot;_blank&quot; href=&quot;http://www.thefallseventcenter.com/&quot;&gt;The Falls Event Center&#39;s&lt;/a&gt; website. The original site was designed using WordPress as the platform, so the important consideration here was trying to keep as much of the functionality they were used to intact.</description>
         <pubDate>Mon, 08 Feb 2016 00:00:00 -0800</pubDate>
         <link>https://reyvera.github.io/portfolio/2016/02/08/The-Falls/</link>
         <guid isPermaLink="true">https://reyvera.github.io/portfolio/2016/02/08/The-Falls/</guid>
         
         <category>Web</category>
-        
-        <category>Development</category>
         
         
         <category>portfolio</category>
