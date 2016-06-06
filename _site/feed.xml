@@ -5,9 +5,23 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>https://reyvera.github.io/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 13 Apr 2016 14:05:18 -0700</pubDate>
-    <lastBuildDate>Wed, 13 Apr 2016 14:05:18 -0700</lastBuildDate>
+    <pubDate>Mon, 06 Jun 2016 10:43:34 -0700</pubDate>
+    <lastBuildDate>Mon, 06 Jun 2016 10:43:34 -0700</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>The falls blog</title>
+        <description>The COO/Creative Director of Storm Maker Media reached out for assistance on &lt;a target=&quot;_blank&quot; href=&quot;http://www.thefallseventcenter.com/&quot;&gt;The Falls Event Center&#39;s&lt;/a&gt; website. The original site was designed using WordPress as the platform, so the important consideration here was trying to keep as much of the functionality they were used to intact.</description>
+        <pubDate>Fri, 01 Apr 2016 00:00:00 -0700</pubDate>
+        <link>https://reyvera.github.io/portfolio/2016/04/01/The-Falls-Blog/</link>
+        <guid isPermaLink="true">https://reyvera.github.io/portfolio/2016/04/01/The-Falls-Blog/</guid>
+        
+        <category>Web</category>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
     
       <item>
         <title>My First Post</title>
@@ -34,6 +48,20 @@
       </item>
     
       <item>
+        <title>The falls</title>
+        <description>The COO/Creative Director of Storm Maker Media reached out for assistance on &lt;a target=&quot;_blank&quot; href=&quot;http://www.thefallseventcenter.com/&quot;&gt;The Falls Event Center&#39;s&lt;/a&gt; website. The original site was designed using WordPress as the platform, so the important consideration here was trying to keep as much of the functionality they were used to intact.</description>
+        <pubDate>Tue, 09 Feb 2016 00:00:00 -0800</pubDate>
+        <link>https://reyvera.github.io/portfolio/2016/02/09/The-Falls/</link>
+        <guid isPermaLink="true">https://reyvera.github.io/portfolio/2016/02/09/The-Falls/</guid>
+        
+        <category>Web</category>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+      <item>
         <title>Welcome</title>
         <description>A brief introduction on what you can expect!</description>
         <pubDate>Tue, 09 Feb 2016 00:00:00 -0800</pubDate>
@@ -51,20 +79,6 @@
         <pubDate>Mon, 08 Feb 2016 00:00:00 -0800</pubDate>
         <link>https://reyvera.github.io/portfolio/2016/02/08/TheChurch/</link>
         <guid isPermaLink="true">https://reyvera.github.io/portfolio/2016/02/08/TheChurch/</guid>
-        
-        <category>Web</category>
-        
-        
-        <category>portfolio</category>
-        
-      </item>
-    
-      <item>
-        <title>The falls</title>
-        <description>The COO/Creative Director of Storm Maker Media reached out for assistance on &lt;a target=&quot;_blank&quot; href=&quot;http://www.thefallseventcenter.com/&quot;&gt;The Falls Event Center&#39;s&lt;/a&gt; website. The original site was designed using WordPress as the platform, so the important consideration here was trying to keep as much of the functionality they were used to intact.</description>
-        <pubDate>Mon, 08 Feb 2016 00:00:00 -0800</pubDate>
-        <link>https://reyvera.github.io/portfolio/2016/02/08/The-Falls/</link>
-        <guid isPermaLink="true">https://reyvera.github.io/portfolio/2016/02/08/The-Falls/</guid>
         
         <category>Web</category>
         

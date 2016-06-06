@@ -13,10 +13,14 @@
                   {% if post.categories contains 'portfolio' %}
                     <div class="portfolio-item">
                         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
+													{% if post.logo %}
+                            <div class="caption" style="background: url('img/portfolio/{{ post.logo }}'); background-size: contain;">
+													{% else %}
+														<div class="caption">
+													{% endif %}
+                                <!-- <div class="caption-content">
                                     <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
+                                </div> -->
                             </div>
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
                         </a>

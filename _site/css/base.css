@@ -27,13 +27,12 @@ header .profile-img {
         position: absolute;
         width: 100%;
         height: 100%;
-        opacity: 0;
-        background: rgba(24, 255, 156, 0.9);
+        opacity: 1;
         -webkit-transition: all ease .5s;
         -moz-transition: all ease .5s;
         transition: all ease .5s; }
         #portfolio .container .portfolio-item .portfolio-link .caption:hover, #portfolio .container .portfolio-item .category-link .caption:hover, #portfolio .container .portfolio-item .post-link .caption:hover, #blog_grid .container .portfolio-item .portfolio-link .caption:hover, #blog_grid .container .portfolio-item .category-link .caption:hover, #blog_grid .container .portfolio-item .post-link .caption:hover, #blog_cat .container .portfolio-item .portfolio-link .caption:hover, #blog_cat .container .portfolio-item .category-link .caption:hover, #blog_cat .container .portfolio-item .post-link .caption:hover, #blog_list .container .portfolio-item .portfolio-link .caption:hover, #blog_list .container .portfolio-item .category-link .caption:hover, #blog_list .container .portfolio-item .post-link .caption:hover {
-          opacity: 1; }
+          opacity: 0; }
         #portfolio .container .portfolio-item .portfolio-link .caption .caption-content, #portfolio .container .portfolio-item .category-link .caption .caption-content, #portfolio .container .portfolio-item .post-link .caption .caption-content, #blog_grid .container .portfolio-item .portfolio-link .caption .caption-content, #blog_grid .container .portfolio-item .category-link .caption .caption-content, #blog_grid .container .portfolio-item .post-link .caption .caption-content, #blog_cat .container .portfolio-item .portfolio-link .caption .caption-content, #blog_cat .container .portfolio-item .category-link .caption .caption-content, #blog_cat .container .portfolio-item .post-link .caption .caption-content, #blog_list .container .portfolio-item .portfolio-link .caption .caption-content, #blog_list .container .portfolio-item .category-link .caption .caption-content, #blog_list .container .portfolio-item .post-link .caption .caption-content {
           position: absolute;
           top: 50%;

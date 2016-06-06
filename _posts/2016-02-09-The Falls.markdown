@@ -1,11 +1,12 @@
 ---
 layout: default
 modal-id: 1
-date: 2016-02-08
+date: 2016-02-09
 img: screenshot_TheFalls.jpg
+logo: ReyVera_portfolio-TheFalls_main-Logo.jpg
 alt: image-alt
 project-date: October 2015 - Present
-client: The Falls
+client: The Falls Event Center
 link: http://www.thefallseventcenter.com/
 category: portfolio
 tags: Web

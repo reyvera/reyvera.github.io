@@ -3,6 +3,7 @@ layout: default
 modal-id: 2
 date: 2016-02-08
 img: screenshot_TheChurch.jpg
+logo: ReyVera_portfolio-TheChurch-Logo.jpg
 alt: image-alt
 project-date: April 2014
 client: TheChurch
