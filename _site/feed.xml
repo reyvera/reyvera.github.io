@@ -5,8 +5,8 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>https://reyvera.github.io/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 06 Jun 2016 10:43:34 -0700</pubDate>
-    <lastBuildDate>Mon, 06 Jun 2016 10:43:34 -0700</lastBuildDate>
+    <pubDate>Mon, 08 Aug 2016 10:24:21 -0700</pubDate>
+    <lastBuildDate>Mon, 08 Aug 2016 10:24:21 -0700</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -81,6 +81,18 @@
         <guid isPermaLink="true">https://reyvera.github.io/portfolio/2016/02/08/TheChurch/</guid>
         
         <category>Web</category>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+      <item>
+        <title>Prosoft connect</title>
+        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
+        <pubDate>Wed, 01 Jul 2015 00:00:00 -0700</pubDate>
+        <link>https://reyvera.github.io/portfolio/2015/07/01/ProSoft-Connect/</link>
+        <guid isPermaLink="true">https://reyvera.github.io/portfolio/2015/07/01/ProSoft-Connect/</guid>
         
         
         <category>portfolio</category>
