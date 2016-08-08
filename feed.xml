@@ -1,30 +1,115 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}/</link>
-    <atom:link href="{{ "/feed.xml" }}" rel="self" type="application/rss+xml" />
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>VerUX</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
+    <link>https://reyvera.github.io/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 08 Aug 2016 11:44:23 -0700</pubDate>
+    <lastBuildDate>Mon, 08 Aug 2016 11:44:23 -0700</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.description | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>The falls blog</title>
+        <description>The COO/Creative Director of Storm Maker Media reached out for assistance on &lt;a target=&quot;_blank&quot; href=&quot;http://www.thefallseventcenter.com/&quot;&gt;The Falls Event Center&#39;s&lt;/a&gt; website. The original site was designed using WordPress as the platform, so the important consideration here was trying to keep as much of the functionality they were used to intact.</description>
+        <pubDate>Fri, 01 Apr 2016 00:00:00 -0700</pubDate>
+        <link>https://reyvera.github.io/portfolio/2016/04/01/The-Falls-Blog/</link>
+        <guid isPermaLink="true">https://reyvera.github.io/portfolio/2016/04/01/The-Falls-Blog/</guid>
+        
+        <category>Web</category>
+        
+        
+        <category>portfolio</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>My First Post</title>
+        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
+        <pubDate>Tue, 23 Feb 2016 00:00:00 -0800</pubDate>
+        <link>https://reyvera.github.io/gh-pages/2016/02/23/My-First-Post/</link>
+        <guid isPermaLink="true">https://reyvera.github.io/gh-pages/2016/02/23/My-First-Post/</guid>
+        
+        
+        <category>gh-pages</category>
+        
+      </item>
+    
+      <item>
+        <title>My Second Post</title>
+        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
+        <pubDate>Mon, 22 Feb 2016 00:00:00 -0800</pubDate>
+        <link>https://reyvera.github.io/gh-pages/2016/02/22/My-Second-Post/</link>
+        <guid isPermaLink="true">https://reyvera.github.io/gh-pages/2016/02/22/My-Second-Post/</guid>
+        
+        
+        <category>gh-pages</category>
+        
+      </item>
+    
+      <item>
+        <title>The falls</title>
+        <description>The COO/Creative Director of Storm Maker Media reached out for assistance on &lt;a target=&quot;_blank&quot; href=&quot;http://www.thefallseventcenter.com/&quot;&gt;The Falls Event Center&#39;s&lt;/a&gt; website. The original site was designed using WordPress as the platform, so the important consideration here was trying to keep as much of the functionality they were used to intact.</description>
+        <pubDate>Tue, 09 Feb 2016 00:00:00 -0800</pubDate>
+        <link>https://reyvera.github.io/portfolio/2016/02/09/The-Falls/</link>
+        <guid isPermaLink="true">https://reyvera.github.io/portfolio/2016/02/09/The-Falls/</guid>
+        
+        <category>Web</category>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome</title>
+        <description>A brief introduction on what you can expect!</description>
+        <pubDate>Tue, 09 Feb 2016 00:00:00 -0800</pubDate>
+        <link>https://reyvera.github.io/welcome/2016/02/09/Welcome/</link>
+        <guid isPermaLink="true">https://reyvera.github.io/welcome/2016/02/09/Welcome/</guid>
+        
+        
+        <category>welcome</category>
+        
+      </item>
+    
+      <item>
+        <title>Thechurch</title>
+        <description>The client wanted a site that could be completely self-maintained, while not compromising on it&#39;s ability to be feature rich. This led to the decision to use SquareSpace as the Content Management System. After deciding which platform to use, the default template &quot;Alex&quot; was used as a base with modifications to fit the clients exact needs. Specifically, there needed to be an easy way to add the clients logo image to the nav-bar, and home section; and the nav-bar needed to have a mobile variant when the screen size was small enough; and backend JavaScript was implemented to allow for a proper responsive design based on their needs.</description>
+        <pubDate>Mon, 08 Feb 2016 00:00:00 -0800</pubDate>
+        <link>https://reyvera.github.io/portfolio/2016/02/08/TheChurch/</link>
+        <guid isPermaLink="true">https://reyvera.github.io/portfolio/2016/02/08/TheChurch/</guid>
+        
+        <category>Web</category>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+      <item>
+        <title>Prosoft connect</title>
+        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
+        <pubDate>Wed, 01 Jul 2015 00:00:00 -0700</pubDate>
+        <link>https://reyvera.github.io/portfolio/2015/07/01/ProSoft-Connect/</link>
+        <guid isPermaLink="true">https://reyvera.github.io/portfolio/2015/07/01/ProSoft-Connect/</guid>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+      <item>
+        <title>Template</title>
+        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
+        <pubDate>Tue, 15 Jul 2014 00:00:00 -0700</pubDate>
+        <link>https://reyvera.github.io/template/2014/07/15/template/</link>
+        <guid isPermaLink="true">https://reyvera.github.io/template/2014/07/15/template/</guid>
+        
+        
+        <category>template</category>
+        
+      </item>
+    
   </channel>
 </rss>
