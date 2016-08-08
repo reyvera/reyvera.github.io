@@ -12,7 +12,8 @@
                 {% for post in site.posts %}
                   {% if post.categories contains 'portfolio' %}
                     <div class="portfolio-item">
-                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                        <!-- <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal"> -->
+												<a href="" class="portfolio-link" data-toggle="modal">
 													{% if post.logo %}
                             <div class="caption" style="background: url('img/portfolio/{{ post.logo }}'); background-size: contain;">
 													{% else %}
